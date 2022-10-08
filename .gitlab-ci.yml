@@ -4,7 +4,7 @@ run_tests:
   script:
     - echo "run tests..."
   after_script:
-    -echo "clean up scripts"
+    - echo "clean up scripts"
 
 build_image:
   script:
