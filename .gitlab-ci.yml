@@ -10,3 +10,5 @@ build_image:
   script:
     - echo "building image"
     - echo "push to docker registerys"
+
+    
