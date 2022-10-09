@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	ginServer := server.NewGinServer("localhost", 3000)
+	ginServer := server.NewGinServer("0.0.0.0", 3000)
 	ginServer.SetRoute()
 	err := ginServer.StartServer()
 	if err != nil {
